@@ -4,9 +4,9 @@ import (
 	"io"
 	"net"
 
-	"github.com/mdouchement/smpp/smpp/pdu"
-	"github.com/mdouchement/smpp/smpp/pdu/pdufield"
-	"github.com/mdouchement/smpp/smpp/pdu/pdutlv"
+	"github.com/abeniaminov/smpp/smpp/pdu"
+	"github.com/abeniaminov/smpp/smpp/pdu/pdufield"
+	"github.com/abeniaminov/smpp/smpp/pdu/pdutlv"
 	"github.com/mdouchement/smsc3/smpp"
 	"github.com/pkg/errors"
 )

@@ -7,10 +7,10 @@ import (
 	"net"
 	"os"
 
+	"github.com/abeniaminov/smpp/smpp/pdu"
+	"github.com/abeniaminov/smpp/smpp/pdu/pdufield"
+	"github.com/abeniaminov/smpp/smpp/pdu/pdutext"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/mdouchement/smpp/smpp/pdu"
-	"github.com/mdouchement/smpp/smpp/pdu/pdufield"
-	"github.com/mdouchement/smpp/smpp/pdu/pdutext"
 	"github.com/pkg/errors"
 )
 

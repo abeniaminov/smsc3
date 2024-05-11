@@ -7,9 +7,9 @@ import (
 	"regexp"
 	"time"
 
+	"github.com/abeniaminov/smpp/smpp/pdu"
+	"github.com/abeniaminov/smpp/smpp/pdu/pdufield"
 	"github.com/mdouchement/logger"
-	"github.com/mdouchement/smpp/smpp/pdu"
-	"github.com/mdouchement/smpp/smpp/pdu/pdufield"
 	"github.com/mdouchement/smsc3/address"
 	"github.com/mdouchement/smsc3/pdutext"
 	"github.com/mdouchement/smsc3/smpp"

@@ -3,8 +3,8 @@ package smpp
 import (
 	"net"
 
+	"github.com/abeniaminov/smpp/smpp/pdu"
 	"github.com/mdouchement/logger"
-	"github.com/mdouchement/smpp/smpp/pdu"
 )
 
 // A Connection embedds a net.Conn decorated with a dumper.
