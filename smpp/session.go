@@ -252,6 +252,7 @@ func (s *Session) defaults(m *Message, p pdu.Body) {
 	f.Set(pdufield.ServiceType, m.ServiceType)
 	f.Set(pdufield.ESMClass, m.ESMClass)
 	f.Set(pdufield.ProtocolID, m.ProtocolID)
+	f.Set(pdufield.MessageState, m.MessageState)
 	f.Set(pdufield.PriorityFlag, m.PriorityFlag)
 	f.Set(pdufield.ScheduleDeliveryTime, m.ScheduleDeliveryTime)
 	f.Set(pdufield.ReplaceIfPresentFlag, m.ReplaceIfPresentFlag)
